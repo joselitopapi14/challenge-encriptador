@@ -1,3 +1,3 @@
-<h1>Challenge | Encriptador de texto <h1/>
+Challenge | Encriptador de texto
 
 - Jose Enrique Otero Pineda
