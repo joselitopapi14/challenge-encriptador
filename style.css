@@ -6,7 +6,7 @@ body {
 .dashboard {
     background-color: rgb(10, 10, 10);
     border: 0px;
-    width: 500px;
+    width: 350px;
     height: 350px;
     border-radius: 15px;
     position: absolute;
@@ -42,7 +42,7 @@ body {
     scale: 1.5;
     font-family: 'Roboto', sans-serif;  
     top: 94%;
-    left: 48%;
+    left: 20%;
     transform: translate(-30%, -50%);
     align-items: center;
     white-space: nowrap;
@@ -62,15 +62,47 @@ body {
 .textfield {
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    color: rgb(190, 190, 190);
-    top: 80%;
-    left: 10%;
+    font-size: 10px;
+    color: rgb(202, 202, 202);
+    top: 76%;
+    left: 18.5%;
     background-color:rgb(10, 10, 10);
-    border: 3px rgb(60, 60, 60);
+    border: 1px rgb(86, 86, 86);
     border-radius: 5px;
     scale: 1.5;
-    
+    width: 210px;
+    box-shadow: 0 0 0 1px #999;
+    resize: none;
+    overflow-y: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
+.candado-cerrado {
+    position: absolute;
+    scale: 0.1;
+    top: -25%;
+    left: 16%;
+
+}
+
+.candado-abierto {
+    position: absolute;
+    scale: 0.11;
+    top: -22%;
+    left: 50%;
+    opacity: 0.6;
+}
+
+.titulo {
+    position: absolute;
+    top: 60px;
+    left: 40%;
+    scale: 1.4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
 
 
