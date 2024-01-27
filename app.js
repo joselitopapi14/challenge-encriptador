@@ -1,10 +1,9 @@
 function encriptarTexto() {
   let texto = document.querySelector("#texto").value;
 
-  // Check for uppercase letters and accents/special characters
   if (/[A-Z]/.test(texto) || /[^a-z0-9\s]/.test(texto)) {
     alert("Solo se deben usar letras minúsculas sin acentos ni caracteres especiales.");
-    return; // Exit the function if invalid characters are found
+    return; 
   }
 
   texto = texto.replace(/[aeiou]/g, function (letra) {
@@ -27,7 +26,6 @@ function encriptarTexto() {
   document.querySelector("#onlyRead").value = texto;
 }
 
-// Apply the same checks to the desencriptarTexto function
 function desencriptarTexto() {
   let texto = document.querySelector("#texto").value;
 
@@ -44,4 +42,6 @@ function desencriptarTexto() {
 
   document.querySelector("#onlyRead").value = texto;
 }
+
+
   
