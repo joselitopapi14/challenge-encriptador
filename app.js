@@ -43,7 +43,5 @@ function desencriptarTexto() {
   document.querySelector("#onlyRead").value = texto;
 }
 
-hola bibiana chao bibiana gg no team report belex manca
-
 
   
